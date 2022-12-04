@@ -20,6 +20,11 @@ Play with todo and tasks
 - Logout feature: Appwrite provides an api account.deleteSession('current') to logout user, and we also clear user from localStorage.
 - Todo restriction: To make sure that users are able perform CRUD operations ONLY on their todos and tasks, we are passing appwriteId with every request, so that in the backend , we can fetch a user from mongoDB using appwriteId and compare that user with owner of Todo.
 
+Minor Issue with Appwrite Authentication:
+   - We get back user data when we register a user and also when we login a user in Appwrite, however $id which we get while registering a user does not match with the $id of a loggedin user, instead it matches userId of loggedin user (login api sends back both $id and userId)
+  Work Around:
+   - When user is initially registered we save $id as appwriteId in the MongoDB backend, however post logIn instead of sending $id we send userId for validation.
+
  
  
 ## Screenshots:

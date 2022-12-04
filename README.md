@@ -22,7 +22,7 @@ Auth: Appwrite
 
  
  
-  Screenshots:
+## Screenshots:
   
   <img width="911" alt="Homepage" src="https://user-images.githubusercontent.com/43242236/205498057-3eef59e5-f6dc-420c-8658-462957060878.png">
   

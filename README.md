@@ -8,10 +8,10 @@ Play with todo and tasks
  - Mark todo as completed
  - Real time search feature
 
-Technologies used:
-Frontend: React
-Backend: ExpressJs, MongoDB, NodeJs
-Auth: Appwrite
+## Technologies used:
+ - Frontend: React
+- Backend: ExpressJs, MongoDB, NodeJs
+- Auth: Appwrite
 
 ## Authentication Handling:
 - Register a user using an api(account.create) provided by Appwrite, once user is created in Appwrite backend, then we proceed to create a user in MongoDB by storing email and appwriteId.

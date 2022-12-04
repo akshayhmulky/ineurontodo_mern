@@ -2,11 +2,12 @@
 Play with todo and tasks
 
 ## Features:
- - SignIn and SignUp
+ - SignIn and SignUp (using Appwrite)
  - Allows users to create their todos and its respective tasks
  - Filter todo by created date and completed todo
  - Mark todo as completed
  - Real time search feature
+ 
  
   Screenshots:
   

@@ -14,7 +14,7 @@ Play with todo and tasks
 - Auth: Appwrite
 
 ## Authentication Handling:
-- Register a user using an api(account.create) provided by Appwrite, once user is created in Appwrite backend, then we proceed to create a user in MongoDB by storing email and appwriteId.
+- Register a user using an api(account.create) provided by Appwrite, once user is created in Appwrite backend, then we proceed to create a user in MongoDB by storing email and appwriteId (We could have ignored this user creation on MongoDb, however this helps if we are also creating an autentication using JWT token)
 - Login a user using an api (account.createEmailSession) provided by Appwrite, since Appwrite restricts the number of times user can hit their api, we made use of localStorage for storing the user post login.
 - To check if user is loggedIn, Appwrite provides an api account.get(), however as discussed previously it has limited number of hits, hence we substituted this api with localStorage to check if user is loggedin.
 - Logout feature: Appwrite provides an api account.deleteSession('current') to logout user, and we also clear user from localStorage.

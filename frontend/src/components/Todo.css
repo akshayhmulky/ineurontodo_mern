@@ -1,0 +1,146 @@
+.todo-list{
+    display:flex;
+    background-color: burlywood;
+    color:#fff;
+    margin:10px;
+    padding:10px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+}
+
+.todo-list:hover{
+    /* transform: scale(1.01);
+    transition: all ease 0.2s; */
+    /* background-color: #54b5ac; */
+    /* cursor: pointer; */
+}
+
+.todo-title{
+    background-color: blueviolet;
+    padding:10px;
+    width: 70%;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.edit-icon{
+    margin-top: 10px;
+    background-color: #fff;
+    color:  blueviolet;
+    border-radius: 10px;
+    border: none;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.delete-icon{
+    margin-top: 4px;
+    background-color: #fff;
+    color:  red;
+    border-radius: 10px;
+    border: none;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.markcomplete-icon{
+    margin-top: 4px;
+    background-color: #fff;
+    color:  green;
+    border-radius: 10px;
+    border: none;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.todo-item{
+    margin-right:10px
+}
+
+/* .todo-header{
+    position: absolute;
+    top:0;
+    margin-bottom:10px;
+} */
+
+.task-list{
+    /* background-color: darkorange; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    /* position: relative; */
+}
+
+.task-title{
+    /* background-color: cornflowerblue; */
+}
+
+.no-task{
+    /* background-color: rgb(199, 199, 187); */
+    color:black;
+    display:flex;
+    justify-content: center;
+    background-color: rgb(205, 195, 195);
+    color:black;
+    margin:10px;
+    padding:10px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.add-task-container{
+width: 100%;
+/* background-color: aqua; */
+display: flex;
+justify-content: right;
+}
+
+.todo-createdtime{
+    font-size: 12px;
+}
+
+select{
+    border-radius: 10px;
+    background-color: azure;
+    display: flex;
+    margin-top:8px;
+    margin-left:10px;
+}
+
+.add-task-button{
+    /* position: absolute;
+    top:0px;
+    right:0px; */
+    padding:3px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #3A928B;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.todo-completed-overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+    background: #0057e3;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 600;
+}

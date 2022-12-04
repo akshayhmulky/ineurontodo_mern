@@ -7,6 +7,12 @@ Play with todo and tasks
  - Filter todo by created date and completed todo
  - Mark todo as completed
  - Real time search feature
+
+Technologies used:
+Frontend: React
+Backend: ExpressJs, MongoDB, NodeJs
+Auth: Appwrite
+
  
  
   Screenshots:
